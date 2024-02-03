@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
 
         routes: {
           //"/" is show on screen first by default
-          "/": (context) =>  LoginPage(),
+          "/": (context) => LoginPage(),
           MyRoutes.loginRoute: (context) => LoginPage(),
         });
   }
